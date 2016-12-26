@@ -46,7 +46,7 @@ if (isset($_GET['id'])) {
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registrados<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registros<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="agregar_empresa.php">Agregar</a></li>
                                 <li role="separator" class="divider"></li>
@@ -61,7 +61,7 @@ if (isset($_GET['id'])) {
         </nav>
         <div class="container">
             <div class="jumbotron center-block">
-                <p class="text-center">IModifica Los Datos De La Empresa</p>
+                <p class="text-center">Modifica Los Datos De La Empresa</p>
             </div>
             <form method="POST" action="edit_delete.php">
                 <?php while ($row = mysqli_fetch_assoc($resultado)) { ?>
